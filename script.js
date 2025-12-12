@@ -7,13 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileBtn.addEventListener('click', () => {
         navMenu.classList.toggle('active');
         
-        // Alternar ícone (opcional, troca barras por X)
+        // Alternar ícone (troca barras por X)
         const icon = mobileBtn.querySelector('i');
         if (navMenu.classList.contains('active')) {
+            // Se o menu estiver ativo, exibe o X para fechar
             icon.classList.remove('fa-bars');
-            icon.classList.add('fa-times');
+            icon.classList.add('fa-xmark'); // Use fa-xmark
         } else {
-            icon.classList.remove('fa-times');
+            // Se o menu estiver fechado, exibe as barras
+            icon.classList.remove('fa-xmark'); // Use fa-xmark
             icon.classList.add('fa-bars');
         }
     });
@@ -23,7 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', () => {
             navMenu.classList.remove('active');
             const icon = mobileBtn.querySelector('i');
-            icon.classList.remove('fa-times');
+            // Garante que o ícone volte para as barras ao fechar
+            icon.classList.remove('fa-xmark'); // Use fa-xmark
             icon.classList.add('fa-bars');
         });
     });

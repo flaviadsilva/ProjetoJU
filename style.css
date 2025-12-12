@@ -448,12 +448,12 @@ header {
 
     /* MENU HAMBÚRGUER (Lógica de exibição) */
     .btn-desktop-only { display: none; }
-    .mobile-menu-btn { 
-        display: block; 
-        background: none; border: none; 
-        font-size: 1.6rem; color: var(--secondary); 
-        cursor: pointer; padding: 10px;
-    }
+   .mobile-menu-btn { 
+    display: block; /* Garante que o botão apareça no mobile */
+    background: none; border: none; 
+    font-size: 1.6rem; color: var(--secondary); 
+    cursor: pointer; padding: 10px;
+}
 
     /* Menu Gaveta (Slide-in) */
     .nav-menu {
