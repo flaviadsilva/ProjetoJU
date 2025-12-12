@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa Pulsar - Terapia Integrativa e Treinamentos Corporativos com Juliana Freitas.">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <title>Programa Pulsar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Programa Pulsar | Juliana Freitas</title>
 </head>
 <body>
 
     <header>
         <div class="container nav-container">
-             <div class="logo-area">
-             <img src="imglogo" alt="">
-                <span class="logo-main">Programa</span>
-                <span class="logo-sub">Pulsar</span>
-            </div>
-            <nav>
+            <a href="#" class="logo-area">
+                <span class="logo-symbol"><img src="./img/logo.png" alt=""></span>
+                <div class="logo-text">
+                    <span class="logo-main">Programa</span>
+                    <span class="logo-sub">Pulsar</span>
+                </div>
+            </a>
+
+            <button class="mobile-menu-btn" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu">
                 <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#publicos">Públicos</a></li>
-                    <li><a href="#programas">Programa</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#publicos" class="nav-link">Públicos</a></li>
+                    <li><a href="#processo" class="nav-link">Como Funciona</a></li> <li><a href="#programas" class="nav-link">Programa</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
                 </ul>
+                <a href="https://wa.me/5551985140070?text=Ol%C3%A1%2C%20quero%20saber%20como%20o%20Programa%20Pulsar%20pode%20atender%20minha%20institui%C3%A7%C3%A3o"
+                class="btn-agendar-mobile" target="_blank">Agendar</a>
             </nav>
+
             <a href="https://wa.me/5551985140070?text=Ol%C3%A1%2C%20quero%20saber%20como%20o%20Programa%20Pulsar%20pode%20atender%20minha%20institui%C3%A7%C3%A3o"
-                class="btn-primary" target="_blank">
+                class="btn-primary btn-desktop-only" target="_blank">
                 Agendar
             </a>
         </div>
@@ -36,16 +49,17 @@
     <section id="inicio" class="hero-section">
         <div class="container hero-content">
             <div class="hero-text">
-                <p class="hero-label">TERAPEUTA INTEGRATIVA</p>
+                <span class="hero-label">TERAPEUTA INTEGRATIVA</span>
                 <h1>Juliana Freitas</h1>
-                <p class="hero-tagline">Transformando relações, comunicação e bem-estar</p>
+                <p class="hero-tagline">Transformando relações, comunicação e bem-estar.</p>
                 <p class="hero-description">Porque saúde emocional também é produtividade.</p>
                 <div class="hero-actions">
-                    <a href="#publicos" class="btn-secondary">Onde o pulsar pode acontecer</a>
+                    <a href="#publicos" class="btn-primary">Conheça os Públicos</a>
+                    <a href="#sobre" class="btn-secondary">Sobre Mim</a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="img/foto.jpeg" alt="Foto profissional da terapeuta">
+                <img src="img/foto.jpeg" alt="Juliana Freitas - Terapeuta Integrativa">
             </div>
         </div>
     </section>
@@ -55,69 +69,87 @@
             <h2 class="section-title">Sobre Mim</h2>
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="img/JU.jpeg" alt="Outra foto da terapeuta">
+                    <img src="img/JU.jpeg" alt="Juliana Freitas no escritório">
                 </div>
                 <div class="about-text">
                     <p><strong>Uma jornada de transformação e cura</strong></p>
-<p>Sou Juliana Freitas, terapeuta integrativa, psicoterapeuta e facilitadora de vivências emocionais. Minha dedicação é total em ajudar pessoas e equipes a encontrarem seu equilíbrio emocional, espiritual e energético, a partir de uma jornada de autoconhecimento e cura profunda.</p>
-<p>Com formação em diversas técnicas terapêuticas, ofereço um atendimento personalizado que integra corpo, mente e espírito. Cada sessão é única, adaptada às suas necessidades específicas.</p>
-<p>Minha prática nasceu da minha própria jornada de renascimento pessoal e busca por um novo ritmo de vida. Essa experiência profunda é a base que hoje levo adiante, inspirando a busca por leveza e motivação sustentável.</p>
-
-Sou a criadora do Programa PULSAR, uma iniciativa focada em desenvolver treinamentos emocionais para equipes. Através do PULSAR, transformo ambientes corporativos, instituições e órgãos públicos, promovendo a comunicação consciente e o bem-estar coletivo.
-                    
+                    <p>Sou Juliana Freitas, terapeuta integrativa, psicoterapeuta e facilitadora de vivências emocionais. Minha dedicação é total em ajudar pessoas e equipes a encontrarem seu equilíbrio emocional, espiritual e energético.</p>
+                    <p>Com formação em diversas técnicas terapêuticas, ofereço um atendimento personalizado que integra corpo, mente e espírito. Minha prática nasceu da minha própria jornada de renascimento pessoal.</p>
+                    <p>Sou a criadora do <strong>Programa PULSAR</strong>, uma iniciativa focada em desenvolver treinamentos emocionais para equipes, transformando ambientes corporativos através da comunicação consciente.</p>
+                </div>
+            </div>
+            
+            <div class="about-info-boxes">
+                <div class="info-box">
+                    <i class="fa-solid fa-users"></i>
+                    <span>+ Treinamentos</span>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <span>Saúde Emocional</span>
+                </div>
+                <div class="info-box">
+                    <i class="fa-solid fa-brain"></i>
+                    <span>Gestão de Conflitos</span>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="publicos" class="publicos-section">
+    <section id="publicos" class="therapies-section">
         <div class="container">
-            <h2 class="section-title">Públicos</h2>
-            <p class="section-subtitle">Cada ambiente tem um ritmo. O Pulsar atua onde existem pessoas e onde há pessoas, há espaço para transformação.</p>
+            <h2 class="section-title">Públicos Atendidos</h2>
+            <p class="section-subtitle">O Pulsar atua onde existem pessoas. Onde há pessoas, há espaço para transformação.</p>
             <div class="therapies-grid">
                 <div class="therapy-card">
                     <div class="icon-placeholder">🏛️</div>
-                    <h3> PREFEITURAS</h3>
-                    <p>O Programa Pulsar apoia as prefeituras a cuidarem de quem cuida da cidade.
-
-Promovemos a saúde emocional dos servidores, o que resulta na redução de afastamentos e na melhoria contínua do ambiente de trabalho em secretarias e repartições públicas.
-
-Nossa metodologia inclui diagnóstico inicial, vivências em grupo e palestras que fortalecem o engajamento, a empatia e o senso de pertencimento dos colaboradores.</p>
-                    
+                    <h3>Prefeituras</h3>
+                    <p>Promovemos a saúde emocional dos servidores, reduzindo afastamentos e melhorando o ambiente em secretarias.</p>
                 </div>
                 <div class="therapy-card">
                     <div class="icon-placeholder">🏥</div>
-                    <h3> HOSPITAIS E CLÍNICAS</h3>
-                    <p>Em ambientes de alta demanda emocional, como hospitais, clínicas e unidades de saúde, o Pulsar atua no equilíbrio e na vitalidade das equipes. Cuidar de quem cuida é essencial!
-
-As práticas propostas aliviam o estresse crônico, fortalece o vínculo entre colegas e resgata a leveza necessária para que o atendimento ao paciente aconteça com mais presença e humanidade.</p>
-                    
+                    <h3>Hospitais e Clínicas</h3>
+                    <p>Cuidar de quem cuida. Práticas que aliviam o estresse crônico e fortalecem o vínculo entre equipes de saúde.</p>
                 </div>
                 <div class="therapy-card">
                     <div class="icon-placeholder">🏫</div>
-                    <h3> ESCOLAS</h3>
-                    <p>Nas escolas, o Pulsar promove o equilíbrio emocional entre educadores, gestores e equipes de apoio.
-
-Em um cenário de tantas mudanças e pressões, o cuidado com o educador é o ponto de partida para uma educação mais saudável e criativa. As vivências ajudam na gestão das emoções, melhoria da comunicação e harmonia entre os profissionais.</p>
-                    
+                    <h3>Escolas</h3>
+                    <p>Apoio a educadores e gestores. Vivências para gestão das emoções em um cenário de altas demandas.</p>
                 </div>
                 <div class="therapy-card">
                     <div class="icon-placeholder">🏢</div>
-                    <h3> EMPRESAS PRIVADAS</h3>
-                    <p>O Pulsar é o investimento que retorna em produtividade sustentável.
-
-Atuamos na gestão emocional das equipes, reduzindo conflitos e elevando o nível de engajamento e foco. Um time equilibrado trabalha com mais leveza, cooperação e, consequentemente, melhores resultados.
-
-O programa é adaptado à cultura e às necessidades de cada empresa, após o diagnóstico inicial e reuniões estratégicas com o RH e lideranças.</p>
-                   
+                    <h3>Empresas Privadas</h3>
+                    <p>Produtividade sustentável. Redução de conflitos e elevação do engajamento através da inteligência emocional.</p>
                 </div>
                 <div class="therapy-card">
                     <div class="icon-placeholder">🧠</div>
-                    <h3> INSTITUIÇÕES SOCIAIS </h3>
-                    <p>O Pulsar também atua em espaços que vivem o cuidado coletivo como ONGs, associações e grupos sociais.
-
-As vivências são essenciais para fortalecer vínculos, resgatar o propósito e renovar a energia das equipes que dedicam sua vida ao bem comum, prevenindo a exaustão.</p>
-                    
+                    <h3>Instituições Sociais</h3>
+                    <p>Fortalecimento de vínculos e renovação de energia para equipes de ONGs e grupos sociais.</p>
                 </div>
-             
+            </div>
+        </div>
+    </section>
+
+    <section id="processo" class="process-section">
+        <div class="container">
+            <h2 class="section-title">Como Funciona</h2>
+            <p class="section-subtitle">Nossa metodologia em 3 passos simples.</p>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Diagnóstico</h3>
+                    <p>Mapeamento do ritmo da equipe através de questionários e reuniões com a liderança.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Construção</h3>
+                    <p>Desenvolvimento de vivências e palestras 100% personalizadas para a necessidade real.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Implementação</h3>
+                    <p>Aplicação das dinâmicas de impacto, relaxamento e integração.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -125,46 +157,42 @@ As vivências são essenciais para fortalecer vínculos, resgatar o propósito e
     <section id="programas" class="pulsar-section">
         <div class="container pulsar-content">
             <span class="tag-exclusive">EXCLUSIVO</span>
-            <h2 class="section-title">Programa Pulsar</h2>
+            <h2 class="section-title">O Programa Pulsar</h2>
             <div class="pulsar-details">
                 <div class="pulsar-text">
-                    <p>Um programa inovador desenvolvido para transformar a dinâmica de equipes corporativas através do autoconhecimento e da inteligência emocional.</p>
+                    <p>Um programa inovador para transformar a dinâmica de equipes através do autoconhecimento.</p>
                     <ul>
                         <li>Melhoria na comunicação interpessoal</li>
                         <li>Aumento da produtividade e engajamento</li>
                         <li>Desenvolvimento de liderança consciente</li>
                         <li>Redução de conflitos e estresse</li>
-                        <li>Ambiente de trabalho mais saudável</li>
                     </ul>
-                    <a href="https://wa.me/5551985140070?text=Ol%C3%A1%2C%20quero%20saber%20como%20o%20Programa%20Pulsar%20pode%20atender%20minha%20institui%C3%A7%C3%A3o" class="btn-primary">Solicitar Proposta</a>
+                    <a href="https://wa.me/5551985140070" class="btn-primary btn-pulsar">Solicitar Proposta</a>
                 </div>
                 <div class="pulsar-image">
-                    <div class="pulsar-circle-logo">Programa Pulsar</div>
+                    <div class="pulsar-circle-logo">
+                        <span>Programa<br>Pulsar</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
 
     <section id="depoimentos" class="testimonials-section">
         <div class="container">
             <h2 class="section-title">Depoimentos</h2>
-            <p class="section-subtitle">Histórias de transformação e cura compartilhadas por quem viveu essa experiência.</p>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <p class="quote">“Antes de começar com a Juliana, eu me sentia sobrecarregada, desconectada do meu próprio ritmo. A abordagem integrativa dela foi um divisor de águas. Não é só terapia; é uma verdadeira jornada de autoconhecimento que envolveu meu corpo, minha mente e minha energia. Hoje, me sinto mais centrada, com clareza sobre meus propósitos e vivendo em um equilíbrio que eu nem sabia que era possível. A Juliana realmente me ajudou a iniciar meu próprio renascimento pessoal."”</p>
-                    <p class="author">— Carolina S., 35 anos, Empreendedora</p>
-                    <p class="therapy-type">Terapia Integrativa</p>
+                    <p class="quote">“A abordagem integrativa foi um divisor de águas. Não é só terapia; é uma jornada de autoconhecimento. Hoje, me sinto mais centrada.”</p>
+                    <p class="author">— Carolina S., Empreendedora</p>
                 </div>
                 <div class="testimonial-card">
-                    <p class="quote">"Implementamos o Programa PULSAR na nossa área de atendimento e os resultados foram imediatos e surpreendentes. A Juliana trouxe uma leveza e uma profundidade que transformaram a comunicação da equipe. Reduzimos drasticamente o atrito e aumentamos a colaboração. Não foi um 'treinamento motivacional' passageiro; foi um mergulho na comunicação consciente que estabeleceu um novo padrão de motivação sustentável e bem-estar coletivo. Recomendo para qualquer empresa que busque humanizar o ambiente de trabalho."</p>
-                    <p class="author">R— Ricardo A., 48 anos, Diretor de RH</p>
-                    <p class="therapy-type">Treinamento Corporativo</p>
+                    <p class="quote">“Reduzimos drasticamente o atrito e aumentamos a colaboração. Foi um mergulho na comunicação consciente.”</p>
+                    <p class="author">— Ricardo A., Diretor de RH</p>
                 </div>
                 <div class="testimonial-card">
-                    <p class="quote">“Participei de uma vivência emocional facilitada pela Juliana e foi uma experiência de cura profunda. Ela tem uma capacidade incrível de criar um espaço seguro, acolhedor e energético para que possamos olhar para as nossas vulnerabilidades. Senti que estava sendo guiada por alguém que realmente entende a busca por um novo ritmo de vida, porque ela já trilhou esse caminho. Saí da vivência com uma sensação de leveza e com ferramentas práticas para lidar com o estresse diário.”</p>
-                    <p class="author">— Patrícia L., 42 anos, Funcionária Pública</p>
-                    <p class="therapy-type">Facilitação de vivência emocinal</p>
+                    <p class="quote">“Saí da vivência com uma sensação de leveza e ferramentas práticas para lidar com o estresse diário.”</p>
+                    <p class="author">— Patrícia L., Funcionária Pública</p>
                 </div>
             </div>
         </div>
@@ -172,42 +200,35 @@ As vivências são essenciais para fortalecer vínculos, resgatar o propósito e
 
     <footer id="contato" class="footer-section">
         <div class="container footer-grid">
-            <div class="footer-col contact-col">
-                <h3 class="section-title">Vamos Conversar?</h3>
-                <p>Estou aqui para ajudar você em sua jornada de transformação. Entre em contato!</p>
-                <div class="whatsapp-float">
-    <a href="https://wa.me/5551985140070" target="_blank" title="Fale comigo no WhatsApp">
-
-        <i class="fab fa-whatsapp whatsapp-icon"></i>
-    </a>
-</div>
+            <div class="footer-col">
+                <h3>Vamos Conversar?</h3>
+                <p>Estou aqui para ajudar você em sua jornada.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/jufreitas.essencia/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/juh.jf" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/@jufreitas.essencia" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
             </div>
-            
-            <div class="footer-col links-col">
-                <h3 class="section-title">Navegação</h3>
+            <div class="footer-col">
+                <h3>Navegação</h3>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#publicos">Públicos</a></li>
                     <li><a href="#programas">Programa</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
                 </ul>
-            </div>
-            
-
-            <div class="footer-col socials-col">
-                <h3 class="section-title">Redes Sociais</h3>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/juh.jf" target="_blank">  <i class="fab fa-facebook-f"></i> Facebook</a>
-                    <a href="https://www.instagram.com/jufreitas.essencia/" target="_blank"> <i class="fab fa-instagram"></i> Instagram</a>
-                    <a href="https://www.tiktok.com/@jufreitas.essencia?lang=pt-BR" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
-                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Juliana Freitas - Projeto Pulsar. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Juliana Freitas - Projeto Pulsar.</p>
         </div>
     </footer>
 
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5551985140070" target="_blank" aria-label="Fale no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
